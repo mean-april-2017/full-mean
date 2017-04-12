@@ -13,7 +13,7 @@ node server.js
 
 ### PROGRESSION
 
-- [Initial Setup](https://github.com/mean-april-2017/full-mean/tree/master) CURRENT
+- CHECKED OUT [Initial Setup](https://github.com/mean-april-2017/full-mean/tree/master) 
     - All requirements.  Gitignore, packackage.json, bower.json ...
-- [Server-Side File Structure Setup](https://github.com/mean-april-2017/full-mean/tree/file-structure)
+- NEXT [Server-Side File Structure Setup](https://github.com/mean-april-2017/full-mean/tree/file-structure)
 
