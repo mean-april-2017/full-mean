@@ -23,7 +23,9 @@ node server.js
     - Configuring Express routes for "GET /api/items" and "POST /api/items"
 - [Server-Side Controllers](https://github.com/mean-april-2017/full-mean/tree/server-controllers)
     - Functionality for Index and Create methods in controllers
-- CHECKED OUT [Basic Angular Setup](https://github.com/mean-april-2017/full-mean/tree/angular-setup)
+- [Basic Angular Setup](https://github.com/mean-april-2017/full-mean/tree/angular-setup)
     - Serve index.html and link up main angular files
-- NEXT [Client-Side Partials/Routes](https://github.com/mean-april-2017/full-mean/tree/client-partials)
+- CHECKED OUT [Client-Side Partials/Routes](https://github.com/mean-april-2017/full-mean/tree/client-partials)
     - Transfer between pages on client side
+- NEXT [Client-Side Controllers](https://github.com/mean-april-2017/full-mean/tree/client-controllers)
+    - Adding / Viewing Items on client-side with data in controllers
