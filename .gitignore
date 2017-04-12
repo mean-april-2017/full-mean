@@ -1,3 +1,10 @@
+# Mac Finder
+.DS_Store
+
+# Bower
+bower_components
+/client/dist
+
 # Logs
 logs
 *.log
