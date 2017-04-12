@@ -11,7 +11,7 @@ app.config(function ($routeProvider) {
     })
     .otherwise("/index");
 });
-app.factory("itemFactory", function () {
+app.factory("itemFactory", function ($http) {
     var factory = {};
     var items = [
         { title: "Do Stuff", dueDate: new Date() },
@@ -19,22 +19,31 @@ app.factory("itemFactory", function () {
         { title: "Do Even More Stuff", dueDate: new Date() },
     ];
 
-    factory.addItem = function (item) {
-        items.push(item);
+    factory.addItem = function (item, finishedAddingItem) {
+        $http.post("/api/items", item).then(function (response) {
+            items.push(response.data.item);
+            finishedAddingItem();
+        });
     }
-    factory.allItems = function () {
-        return items;
+    factory.allItems = function (receivedItems) {
+        $http.get("/api/items").then(function (response) {
+            items = response.data.items;
+            receivedItems(items);
+        });
     }
 
     return factory;
 })
 app.controller("itemsIndexController", function ($scope, itemFactory) {
-    $scope.items = itemFactory.allItems();
+    itemFactory.allItems(function (items) {
+        $scope.items = items;
+    });
 });
 app.controller("newItemController", function ($scope, itemFactory) {
     $scope.addItem = function () {
         console.log("NEW ITEM:", $scope.item);
-        itemFactory.addItem($scope.item);
-        $scope.item = {};
+        itemFactory.addItem($scope.item, function () {
+            $scope.item = {};
+        });
     }
 });
