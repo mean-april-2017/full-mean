@@ -21,7 +21,9 @@ node server.js
     - Configuring Mongoose and creating Item model
 - [Routes Configuration](https://github.com/mean-april-2017/full-mean/tree/routes)
     - Configuring Express routes for "GET /api/items" and "POST /api/items"
-- CHECKED OUT [Server-Side Controllers](https://github.com/mean-april-2017/full-mean/tree/server-controllers)
+- [Server-Side Controllers](https://github.com/mean-april-2017/full-mean/tree/server-controllers)
     - Functionality for Index and Create methods in controllers
-- NEXT [Basic Angular Setup](https://github.com/mean-april-2017/full-mean/tree/angular-setup)
+- CHECKED OUT [Basic Angular Setup](https://github.com/mean-april-2017/full-mean/tree/angular-setup)
     - Serve index.html and link up main angular files
+- NEXT [Client-Side Partials/Routes](https://github.com/mean-april-2017/full-mean/tree/client-partials)
+    - Transfer between pages on client side
