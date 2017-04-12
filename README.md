@@ -19,7 +19,9 @@ node server.js
     - Setting up the basic file structure for the server (MVC)
 - [Models Configuration](https://github.com/mean-april-2017/full-mean/tree/models)
     - Configuring Mongoose and creating Item model
-- CHECKED OUT [Routes Configuration](https://github.com/mean-april-2017/full-mean/tree/routes)
+- [Routes Configuration](https://github.com/mean-april-2017/full-mean/tree/routes)
     - Configuring Express routes for "GET /api/items" and "POST /api/items"
-- NEXT [Server-Side Controllers](https://github.com/mean-april-2017/full-mean/tree/server-controllers)
+- CHECKED OUT [Server-Side Controllers](https://github.com/mean-april-2017/full-mean/tree/server-controllers)
     - Functionality for Index and Create methods in controllers
+- NEXT [Server-Side Controllers](https://github.com/mean-april-2017/full-mean/tree/angular-setup)
+    - Serve index.html and link up main angular files
