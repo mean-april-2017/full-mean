@@ -13,7 +13,9 @@ node server.js
 
 ### PROGRESSION
 
-- CHECKED OUT [Initial Setup](https://github.com/mean-april-2017/full-mean/tree/master) 
+- [Initial Setup](https://github.com/mean-april-2017/full-mean/tree/master) 
     - All requirements.  Gitignore, packackage.json, bower.json ...
-- NEXT [Server-Side File Structure Setup](https://github.com/mean-april-2017/full-mean/tree/file-structure)
-
+- CHECKED OUT [Server-Side File Structure Setup](https://github.com/mean-april-2017/full-mean/tree/file-structure)
+    - Setting up the basic file structure for the server (MVC)
+- NEXT [Models Configuration](https://github.com/mean-april-2017/full-mean/tree/models)
+    - Configuring Mongoose and creating Item model
