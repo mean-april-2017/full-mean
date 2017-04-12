@@ -15,7 +15,9 @@ node server.js
 
 - [Initial Setup](https://github.com/mean-april-2017/full-mean/tree/master) 
     - All requirements.  Gitignore, packackage.json, bower.json ...
-- CHECKED OUT [Server-Side File Structure Setup](https://github.com/mean-april-2017/full-mean/tree/file-structure)
+- [Server-Side File Structure Setup](https://github.com/mean-april-2017/full-mean/tree/file-structure)
     - Setting up the basic file structure for the server (MVC)
-- NEXT [Models Configuration](https://github.com/mean-april-2017/full-mean/tree/models)
+- CHECKED OUT [Models Configuration](https://github.com/mean-april-2017/full-mean/tree/models)
     - Configuring Mongoose and creating Item model
+- NEXT [Routes Configuration](https://github.com/mean-april-2017/full-mean/tree/models)
+    - Configuring Express routes for "GET /api/items" and "POST /api/items"
