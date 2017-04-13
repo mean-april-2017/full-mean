@@ -13,7 +13,7 @@ node server.js
 
 ### CHANGES
 
-[Changes](https://github.com/mean-april-2017/full-mean/compare/server-controllers...angular-setup)
+[Changes](https://github.com/mean-april-2017/full-mean/compare/angular-setup...client-partials)
 
 ### PROGRESSION
 
