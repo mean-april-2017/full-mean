@@ -13,7 +13,7 @@ node server.js
 
 ### CHANGES
 
-[Changes](https://github.com/mean-april-2017/full-mean/compare/models...routes)
+[Changes](https://github.com/mean-april-2017/full-mean/compare/routes...server-controllers)
 
 ### PROGRESSION
 
