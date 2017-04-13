@@ -11,6 +11,10 @@ bower install
 node server.js
 ```
 
+### CHANGES
+
+[Changes](https://github.com/mean-april-2017/full-mean/compare/file-structure...models)
+
 ### PROGRESSION
 
 - [Initial Setup](https://github.com/mean-april-2017/full-mean/tree/master) 
