@@ -29,7 +29,7 @@ node server.js
     - Transfer between pages on client side
 - [Client-Side Controllers](https://github.com/mean-april-2017/full-mean/tree/client-controllers)
     - Adding / Viewing Items on client-side with data in controllers
-- CHECKED OUT [Client-Side Factories](https://github.com/mean-april-2017/full-mean/tree/using-factories)
+- [Client-Side Factories](https://github.com/mean-april-2017/full-mean/tree/using-factories)
     - Keeping data from controllers in factories
-- NEXT [Client -> Server Communication](https://github.com/mean-april-2017/full-mean/tree/factories-calling-api)
+- CHECKED OUT [Client -> Server Communication](https://github.com/mean-april-2017/full-mean/tree/factories-calling-api)
     - Factories use AJAX to send/receive data to server
