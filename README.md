@@ -13,7 +13,7 @@ node server.js
 
 ### CHANGES
 
-[Changes](https://github.com/mean-april-2017/full-mean/compare/client-partials...client-controllers)
+[Changes](https://github.com/mean-april-2017/full-mean/compare/client-controllers...using-factories)
 
 ### PROGRESSION
 
