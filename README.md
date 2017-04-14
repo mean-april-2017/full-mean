@@ -13,7 +13,7 @@ node server.js
 
 ### CHANGES
 
-[Changes](https://github.com/mean-april-2017/full-mean/compare/using-factories...factories-calling-api)
+[Changes](https://github.com/mean-april-2017/full-mean/compare/factories-calling-api...full-front-to-back)
 
 ### PROGRESSION
 
