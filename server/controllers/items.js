@@ -18,6 +18,18 @@ module.exports.index = function (request, response)
     });
 }
 
+module.exports.show = function (request, response)
+{
+    console.log('hi');
+    Item.findOne({ _id: request.params.id }, function (err, item) {
+        if (err) {
+            console.log(err);
+        } else {
+            response.json({ message: "Item " + item._id, item: item });
+        }
+    });
+}
+
 module.exports.create = function (request, response)
 {
     var item = new Item({

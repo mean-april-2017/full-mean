@@ -9,6 +9,10 @@ app.config(function ($routeProvider) {
         templateUrl: "/partials/items-index.html",
         controller: "itemsIndexController"
     })
+    .when("/items/:itemId", {
+        templateUrl: "/partials/view-item.html",
+        controller: "viewItemController"
+    })
     .otherwise("/index");
 });
 app.factory("itemFactory", function ($http) {
@@ -31,7 +35,11 @@ app.factory("itemFactory", function ($http) {
             receivedItems(items);
         });
     }
-
+    factory.getItem = function (itemId, receivedItem) {
+        $http.get("/api/items/" + itemId).then(function (response) {
+            receivedItem(response.data.item);
+        });
+    }
     return factory;
 })
 app.controller("itemsIndexController", function ($scope, itemFactory) {
@@ -46,4 +54,9 @@ app.controller("newItemController", function ($scope, itemFactory) {
             $scope.item = {};
         });
     }
+});
+app.controller("viewItemController", function ($scope, $routeParams, itemFactory) {
+    itemFactory.getItem($routeParams.itemId, function (item) {
+        $scope.item = item;
+    });
 });

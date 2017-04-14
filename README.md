@@ -35,7 +35,7 @@ node server.js
     - Adding / Viewing Items on client-side with data in controllers
 - [Client-Side Factories](https://github.com/mean-april-2017/full-mean/tree/using-factories)
     - Keeping data from controllers in factories
-- CHECKED OUT [Client -> Server Communication](https://github.com/mean-april-2017/full-mean/tree/factories-calling-api)
+- [Client -> Server Communication](https://github.com/mean-april-2017/full-mean/tree/factories-calling-api)
     - Factories use AJAX to send/receive data to server
-- NEXT [Front to Back](https://github.com/mean-april-2017/full-mean/tree/full-front-to-back)
+- CHECKED OUT [Front to Back](https://github.com/mean-april-2017/full-mean/tree/full-front-to-back)
     - Adding another route from front to back
