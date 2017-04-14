@@ -37,3 +37,5 @@ node server.js
     - Keeping data from controllers in factories
 - CHECKED OUT [Client -> Server Communication](https://github.com/mean-april-2017/full-mean/tree/factories-calling-api)
     - Factories use AJAX to send/receive data to server
+- NEXT [Front to Back](https://github.com/mean-april-2017/full-mean/tree/full-front-to-back)
+    - Adding another route from front to back
