@@ -3,7 +3,7 @@
 */
 console.log("/server/config/routes.js");
 var items = require("../controllers/items");  // Require Items Controller
-var subItems = require("../controllers/items");  // Require Items Controller
+var subItems = require("../controllers/sub-items");  // Require Items Controller
 
 module.exports = function (app)
 {

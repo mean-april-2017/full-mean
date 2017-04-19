@@ -20,6 +20,7 @@ module.exports.index = function (request, response)
 
 module.exports.create = function (request, response)
 {
+    console.log("SAVING NEW ITEM");
     var item = new Item({
         title: request.body.title,
     });
