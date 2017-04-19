@@ -9,5 +9,6 @@ module.exports = function (app)
 {
     app.get("/api/items", items.index);
     app.post("/api/items", items.create);
+    app.get("/api/items/:itemId/subitems", subItems.index);
     app.post("/api/items/:itemId/subitems", subItems.create);
 }
