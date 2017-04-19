@@ -9,7 +9,7 @@ var Item = mongoose.model("Item");
 
 module.exports.index = function (request, response)
 {
-    Item.find({}, function (err, items) {
+    Item.find({}).populate("subItems").exec(function (err, items) {
         if (err) {
             console.log(err);
         } else {
