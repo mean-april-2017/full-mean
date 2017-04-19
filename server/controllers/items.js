@@ -22,7 +22,6 @@ module.exports.create = function (request, response)
 {
     var item = new Item({
         title: request.body.title,
-        dueDate: request.body.dueDate
     });
     item.save(function (err) {
         if (err) {
